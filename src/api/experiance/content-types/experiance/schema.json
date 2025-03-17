@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiances",
+  "info": {
+    "singularName": "experiance",
+    "pluralName": "experiances",
+    "displayName": "Experiance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "JobTimeFrame": {
+      "type": "string"
+    },
+    "JobTitle": {
+      "type": "string"
+    },
+    "JobName": {
+      "type": "string"
+    },
+    "JobLocation": {
+      "type": "string"
+    },
+    "PositionDescription1": {
+      "type": "text"
+    },
+    "PositionDescription2": {
+      "type": "text"
+    },
+    "PositionDescription3": {
+      "type": "text"
+    },
+    "PositionDescription4": {
+      "type": "text"
+    },
+    "PositionDescription5": {
+      "type": "text"
+    }
+  }
+}

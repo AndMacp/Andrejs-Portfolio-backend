@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description1": {
+      "type": "text",
+      "required": true
+    },
+    "Description2": {
+      "type": "text"
+    },
+    "Description3": {
+      "type": "text"
+    },
+    "ExperianceSlogan1": {
+      "type": "string",
+      "required": true
+    },
+    "ExperianceSlogan2": {
+      "type": "string"
+    }
+  }
+}
